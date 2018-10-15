@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+html, body {
+  width: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.index {
+  width: 100%;
+  height: 1100px;
+  position: relative; }
+  .index .title {
+    z-index: 3;
+    position: absolute;
+    margin-top: 35px;
+    left: 90px;
+    top: 0; }
+  .index .topImg {
+    z-index: 1;
+    position: absolute;
+    width: 1903px;
+    height: 1100px; }
+  .index .menulist {
+    z-index: 100;
+    position: absolute;
+    margin-top: 35px;
+    right: 0;
+    margin-right: 120px;
+    list-style: none;
+    float: right; }
+    .index .menulist li {
+      display: inline;
+      color: #fff;
+      opacity: 0.8;
+      font-size: 15pt;
+      margin-left: 35px;
+      text-transform: uppercase; }
+      .index .menulist li:hover {
+        opacity: 1; }
+  .index .main {
+    width: 100%;
+    z-index: 200;
+    top: 90px;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto; }
+    .index .main p {
+      padding: 130px 0;
+      font-family: 'Black Han Sans', sans-serif;
+      color: #35815c;
+      font-weight: bold;
+      font-size: 45pt;
+      letter-spacing: 5px;
+      line-height: 155%; }
+    .index .main span {
+      color: #3e3e3e;
+      display: block;
+      margin-top: -180px; }
+    .index .main img {
+      opacity: 0.8;
+      margin-top: 60px; }
+      .index .main img:hover {
+        opacity: 1; }
+  .index .contents {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../img/index_bg.png");
+    position: relative; }
+
+.viewDetail {
+  position: relative; }
+  .viewDetail .title {
+    z-index: 3;
+    position: absolute;
+    margin-top: 35px;
+    left: 90px;
+    top: 0; }
+  .viewDetail .topImg {
+    z-index: 1;
+    width: 1903px;
+    position: absolute; }
+  .viewDetail .menulist {
+    z-index: 100;
+    position: absolute;
+    margin-top: 35px;
+    right: 0;
+    margin-right: 120px;
+    list-style: none;
+    float: right; }
+    .viewDetail .menulist li {
+      display: inline;
+      color: #fff;
+      opacity: 0.8;
+      font-size: 15pt;
+      margin-left: 35px;
+      text-transform: uppercase; }
+      .viewDetail .menulist li:hover {
+        opacity: 1; }
+  .viewDetail .detail {
+    margin-top: -5px;
+    text-align: center;
+    left: 1100px;
+    position: absolute; }
+    .viewDetail .detail .scoreContent {
+      z-index: 300;
+      position: absolute;
+      width: 400px;
+      height: 950px;
+      background-color: #636363; }
+      .viewDetail .detail .scoreContent .info {
+        color: white;
+        font-weight: bold;
+        font-size: 15pt;
+        text-align: left;
+        margin-left: 80px;
+        margin-top: 50px; }
+      .viewDetail .detail .scoreContent p {
+        color: white;
+        margin-left: 80px;
+        margin-top: 55px;
+        text-align: left; }
+      .viewDetail .detail .scoreContent .inputText {
+        margin-left: 80px;
+        width: 140px;
+        height: 35px;
+        float: left;
+        border-radius: 20px;
+        margin-top: 5px;
+        text-indent: 15px;
+        border-style: none;
+        -webkit-transition: width .35s ease-in-out;
+        transition: width .35s ease-in-out; }
+        .viewDetail .detail .scoreContent .inputText:focus {
+          width: 170px;
+          outline: none; }
+      .viewDetail .detail .scoreContent img {
+        float: left;
+        margin-left: 80px;
+        opacity: 0.8; }
+        .viewDetail .detail .scoreContent img:hover {
+          opacity: 1; }
+    .viewDetail .detail .applyContent {
+      width: 650px;
+      height: 950px;
+      position: absolute;
+      right: 0;
+      background-color: #f2f2f2; }
+      .viewDetail .detail .applyContent .applyImg {
+        width: 130px;
+        height: 130px;
+        float: left;
+        margin-left: 120px;
+        margin-top: 40px;
+        border-radius: 50%; }
+      .viewDetail .detail .applyContent .userInfo {
+        float: left;
+        margin-left: 60px;
+        color: #313131;
+        text-align: left;
+        margin-top: 36px;
+        display: inline-block; }
+        .viewDetail .detail .applyContent .userInfo p {
+          font-weight: bold;
+          font-size: 15pt; }
+        .viewDetail .detail .applyContent .userInfo span {
+          display: block;
+          margin-bottom: 10px; }
+      .viewDetail .detail .applyContent .q {
+        display: block;
+        position: absolute;
+        font-size: 15pt;
+        font-weight: bold;
+        float: left;
+        margin-left: 120px;
+        margin-top: 225px; }
+      .viewDetail .detail .applyContent .q2 {
+        display: block;
+        position: absolute;
+        font-size: 15pt;
+        font-weight: bold;
+        float: left;
+        margin-left: 120px;
+        margin-top: 510px; }
+      .viewDetail .detail .applyContent .qBox {
+        position: absolute;
+        float: left;
+        width: 400px;
+        margin-left: 120px;
+        text-align: left;
+        margin-top: 280px;
+        background-color: #fff;
+        padding: 15px; }
+      .viewDetail .detail .applyContent .qBox2 {
+        position: absolute;
+        float: left;
+        width: 400px;
+        margin-left: 120px;
+        text-align: left;
+        margin-top: 565px;
+        background-color: #fff;
+        padding: 15px; }

@@ -1,0 +1,103 @@
+html, body {
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  
+   }
+
+input[id="loginCb"] + label {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #35815c;
+  cursor: pointer; }
+
+input[id="loginCb"]:checked + label:after {
+  content: '\2714';
+  font-size: 14px; }
+
+input[id="loginCb"] {
+  display: none; }
+
+.background {
+  width: 1024px;
+  margin: 0 auto; }
+  .background .card {
+    width: 850px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 1px 8px 10px #dad8d8;
+    margin: 0 auto;
+    margin-top: 20%; }
+    .background .card .logoImg {
+      width: 520px;
+      height: 600px;
+      position: relative;
+      left: -60px;
+      bottom: 140px;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../img/gggg.png"); }
+    .background .card .set {
+      position: relative;
+      bottom: 580px;
+      left: 430px;
+      width: 380px;
+      height: 500px; }
+      .background .card .set .textBox {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        letter-spacing: 10px;
+        margin-right: 10px;
+        color: #5a5959;
+        text-indent: 12px;
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 35pt; }
+      .background .card .set form {
+        padding: 10px;
+        float: right;
+        padding-right: 50px; }
+        .background .card .set form i {
+          width: 50px;
+          height: 50px;
+          font-size: 18pt;
+          color: #35815c; }
+        .background .card .set form .textInput {
+          width: 180px;
+          height: 30px;
+          font-size: 13pt;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          color: #6d6d6d;
+          font-family: 'Nanum Gothic', sans-serif;
+          border-bottom: 1.5px solid #929292;
+          text-indent: 10px;
+          margin-bottom: 30px; }
+          .background .card .set form .textInput:focus {
+            border-bottom: 1.5px solid #35815c;
+            outline: none; }
+        .background .card .set form .button {
+          width: 240px;
+          height: 40px;
+          font-family: 'Nanum Gothic', sans-serif;
+          border-style: none;
+          color: #fff;
+          font-size: 13pt;
+          background-color: #35815c;
+          border-radius: 20px; }
+          .background .card .set form .button:focus {
+            outline: none; }
+          .background .card .set form .button:hover {
+            background-color: #2e6b4e; }
+    .background .card .copyright {
+      color: #757575;
+      font-size: 12pt;
+      position: relative;
+      bottom: 530px;
+      text-align: center;
+      line-height: 165%; }
